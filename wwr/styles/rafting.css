@@ -22,9 +22,8 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
-    background-color: var(--accent1-color:);
     color: var(--secondary-color);
-    
+
 }
 
 h1, h2, h3, h4, h5, h6 {
