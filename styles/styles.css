@@ -64,13 +64,14 @@ h1 {
     color: steelblue;
     font-size: 1.8rem;
     text-align: center;
-    padding-bottom: 15px;   
+    padding-bottom: 5px;
+    border-bottom: solid steelblue;
 
 }
 
 
 p {
-    padding: 0;
+    padding: 10px;
 }
 
 
