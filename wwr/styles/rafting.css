@@ -34,15 +34,17 @@ h1, h2, h3, h4, h5, h6 {
 header {
     padding: 5px;
     background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 85rem;
+    justify-content: center;
+    border: 2px solid #E1E5F2;
+    gap: 10px;
 
 }
 
 header img {
     height: 150px;
-    left: 50px;
-    top: 20px;
-    position: relative;
-    text-align: left;
+    margin-left: 7rem;    
 }
 
 
@@ -51,12 +53,14 @@ header img {
     font-size: 1.1em;
     display: flex;
     justify-content: center;
-    gap: 50px;
-    padding: 10px 0;
     position: relative;
     bottom: 85px;
     left: 350px;
     max-width: 60%;
+    gap: 60px;
+    padding: 10px 0;
+	list-style: none;
+    border: 1.5px solid #ffffff;
 
 }
       
@@ -71,6 +75,9 @@ header img {
     position: relative;
     text-align: center;
     color: white;
+    border: 2px solid #E1E5F2;
+    padding: 2px;
+    background-color: var(--accent1-color);
 }
 
 .hero img {
@@ -107,33 +114,80 @@ header img {
     height: auto;
 }
 
+#history {
+    position: relative;
+    text-align: center;
+    border: 2px solid #E1E5F2;
+    padding: 2px;
+    margin: 1.5rem;
+}
+
+#history img {
+    max-width: 28rem;
+    height: auto;
+}
+
+#history p {
+    margin: 30px;
+}
+
 #adventure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#adventure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#adventure h2 {
+    position: absolute;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
 #adventure img {
-    max-width: 30rem;
+    margin-top: 4rem;
+    padding: 5px;
+    max-width: 12rem;
     height: auto;
-    margin: 10px;
-    border-radius: 10px;
+    position: relative;
+}
+
+#adventure figure {
+    margin: 15px;
+    text-align: center;
+    margin-bottom: 3rem;
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-    background-color: var(--accent1-color);
-    color: var(--secondary-color);
+        padding: 20px;
+        background-color: var(--accent1-color);
+        color: var(--secondary-color);
+        border: 2px solid #E1E5F2;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+}
+
+footer p {
+        align-content: center;
+        position: relative;
+        left: 22rem;
+        
 }
 
 footer .sociallinks {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
+        display: flex;
+        justify-content: right; 
+        gap: 50px;
 }
-
+    
 footer .sociallinks a img {
-    width: 24px;
-    height: 24px;
+        width: 24px;
+        height: 24px;
 }
 
