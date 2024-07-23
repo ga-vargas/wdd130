@@ -38,12 +38,12 @@ header {
     grid-template-columns: 85rem;
     justify-content: center;
     border: 2px solid #E1E5F2;
-    gap: 10px;
+    gap: 5px;
 
 }
 
 header img {
-    height: 150px;
+    height: 120px;
     margin-left: 7rem;    
 }
 
@@ -340,18 +340,20 @@ button[type="submit"]:hover {
 }
 
 
-#trips button {
+#trips .button-link {
     background-color: var(--primary-color);
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
+    text-decoration: none;
+    font-size: 12px;
     cursor: pointer;
     font-family: var(--paragraph-font);
-    margin: 10px;
+    margin: 15px;
 }
 
-#trips button:hover {
+#trips .button-link:hover {
     background-color: var(--secondary-color);
 }
 
@@ -405,7 +407,7 @@ table tr:hover {
     text-align: center; 
 }
 
-.send-message button {
+.send-message .button-link {
     background-color: var(--primary-color);
     color: #fff;
     padding: 10px 20px;
@@ -418,6 +420,132 @@ table tr:hover {
     display: inline-block;
 }
 
-.send-message button:hover {
+.send-message .button-link:hover {
     background-color: var(--secondary-color);
+}
+
+/* CHANGES AND ADDITIONS FOR INDEX.HTML WEEK 6 ASSIGNMENT */
+
+/* Estilos específicos para index.html */
+
+/* Ajustes para la sección de reservas */
+
+#index-title {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#index-title img {
+    width: 100%;
+    height: auto;
+}
+
+#index-title h1 {
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    left: 32.5%;
+    color: white;
+    font-size: 2.5rem;
+}
+
+#index-title .button-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    text-decoration: none;
+}
+
+#index-title .button-link:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Ajustes para la sección de misión */
+
+ #index-mission {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center; /* Centra los elementos horizontalmente */
+    margin-bottom: 30px;
+}
+
+#index-mission h1 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin: 20px;
+}
+
+#index-mission p {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+
+#index-mission .button-link {
+    background-color: var(--primary-color); /* Añadí color de fondo */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#index-mission .button-link:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Ajustes para la sección de imágenes */
+#index-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px 0;
+}
+
+#index-images figure {
+    margin: 0;
+    text-align: center;
+}
+
+#index-images img {
+    width: 100%;
+    height: auto;
+    border: 2px solid var(--accent2-color);
+    border-radius: 10px;
+}
+
+#index-images figcaption {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+
+#index-images figcaption a {
+    color: #1F7A8C;; /* Color celeste para los enlaces */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    margin-top: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    
+}
+
+#index-images p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: var(--secondary-color);
 }
