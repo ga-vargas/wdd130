@@ -426,10 +426,6 @@ table tr:hover {
 
 /* CHANGES AND ADDITIONS FOR INDEX.HTML WEEK 6 ASSIGNMENT */
 
-/* Estilos específicos para index.html */
-
-/* Ajustes para la sección de reservas */
-
 #index-title {
     position: relative;
     text-align: center;
@@ -469,14 +465,12 @@ table tr:hover {
     background-color: var(--secondary-color);
 }
 
-/* Ajustes para la sección de misión */
-
  #index-mission {
     padding: 20px;
     border-radius: 10px;
     margin: 20px 0;
     display: flex;
-    align-items: center; /* Centra los elementos horizontalmente */
+    align-items: center;
     margin-bottom: 30px;
 }
 
@@ -494,9 +488,8 @@ table tr:hover {
     margin-top: 25px;
 }
 
-
 #index-mission .button-link {
-    background-color: var(--primary-color); /* Añadí color de fondo */
+    background-color: var(--primary-color);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -509,7 +502,6 @@ table tr:hover {
     background-color: var(--secondary-color);
 }
 
-/* Ajustes para la sección de imágenes */
 #index-images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -536,8 +528,8 @@ table tr:hover {
 }
 
 #index-images figcaption a {
-    color: #1F7A8C;; /* Color celeste para los enlaces */
-    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: #1F7A8C;
+    text-decoration: none;
     margin-top: 5px;
     font-size: 1.1rem;
     font-weight: bold;
